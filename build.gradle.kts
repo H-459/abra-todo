@@ -7,7 +7,7 @@ buildscript {
         classpath(kotlin("gradle-plugin", embeddedKotlinVersion))
     }
 }
-
+<!-- will this trigger a scan? -->
 plugins {
     `lifecycle-base`
     alias(libs.plugins.depUpdates)
