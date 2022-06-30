@@ -1,7 +1,9 @@
 /*global suite, test*/
 
-/*babababababababababa */
+/*babababababababababajklajsdkljaskldjaskljdlsa
+*/
 
+let boom = 98;
 var assert = require("assert")
     , after = require("../")
 
