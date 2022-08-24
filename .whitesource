@@ -3,7 +3,7 @@
     "configMode": "AUTO",
     "configExternalURL": "",
     "projectToken": "",
-    "baseBranches": ["dev","roomoo"]
+    "baseBranches": ["dev","roomoo","feature"]
   },
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure",
