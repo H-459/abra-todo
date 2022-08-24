@@ -10,6 +10,7 @@ import * as S from "./styles";
 function App() {
 
   const [todos, setTodos] = useState([]);
+  const test="test testington";
 
   const addNewTodo = (todo) => {
     const newTodos = [...todos];
