@@ -7,12 +7,26 @@ let boom = 9218;
 var assert = require("assert")
     , after = require("../")
 
+
+
+
+
+
+
+
+
+
+
 test("exists", function () {
     assert(typeof after === "function", "after is not a function")
 })
 
 test("after when called with 0 invokes", function (done) {
     after(0, done)
+     after(0, done)
+     after(0, done)
+     after(0, done)
+     after(0, done) after(0, done) after(0, done) after(0, done) after(0, done) after(0, done) after(0, done) after(0, done) after(0, done) after(0, done) after(0, done)
 });
 
 test("after 1", function (done) {
